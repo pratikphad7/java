@@ -41,5 +41,9 @@ class client{
 		child obj=new child();
 		obj.fun();
 		obj.gun(); //or child.gun()  //or parent.gun()
+		System.out.println(obj.x);
+		System.out.println(obj.y);
+		System.out.println(child.x);
+		System.out.println(parent.x);
 	}
 }
